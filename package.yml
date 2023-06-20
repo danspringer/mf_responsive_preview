@@ -1,0 +1,18 @@
+package: mf_responsive_preview
+version: '1.0'
+author: 'Daniel Springer | Medienfeuer'
+compile: 0
+
+page:
+  hidden: true
+  title: 'Responsive-Preview'
+  perm: mf_responsive_preview[]
+  pjax: true
+  icon: rex-icon fa fa-expand
+pages:
+  content/preview: { title: 'translate:title', itemClass: 'pull-right', href: "javascript:openPreview()", icon: rex-icon fa fa-mobile }
+
+requires:
+    packages:
+    
+    redaxo: '>=5.10'
