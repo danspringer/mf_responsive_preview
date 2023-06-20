@@ -2,7 +2,7 @@
 
 class responsive_preview
 {
-    public static function get($ep): array|string|null
+    public static function get($ep)
     {
         $subject = $ep->getSubject();
         $iframe_overlay = new rex_fragment();
